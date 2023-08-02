@@ -11,5 +11,12 @@
     "name": "CuteRogue",
     "email": "cuterogue@twinfaerie.my.id",
     "url": "https://www.twinfaerie.my.id/cuterogue"
-  }
+  },
+  "samples": [
+    {
+        "displayName": "Example Usage",
+        "description": "Adding Example menu to the module",
+        "path": "Samples~/SettingMenuExample"
+    }
+  ]
 }

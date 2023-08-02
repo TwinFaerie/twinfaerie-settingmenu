@@ -4,6 +4,9 @@
   "displayName": "TwinFaerie Setting-Menu",
   "description": "For centralize game setting and separate game setting from unity setting",
   "unity": "2020.3",
+  "documentationUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/",
+  "changelogUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/releases",
+  "licensesUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/blob/main/LICENSE",
   "author": {
     "name": "CuteRogue",
     "email": "cuterogue@twinfaerie.my.id",

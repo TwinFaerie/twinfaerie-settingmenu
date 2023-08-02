@@ -55,7 +55,7 @@ This module created to centralize scriptable object used for in-game setting
   ![image](https://github.com/TwinFaerie/twinfaerie-settingmenu/assets/34561311/933bce47-5ccf-4a2e-b348-eba18298438f)
 
 ## (OPTIONAL) Adding Icon to your Setting
-- You can also add icon to your setting by placing .png image inside Setting/Icon folder with same name as your setting name
+- You can also add icon to your setting by placing .png image inside Setting/Icon folder with same name as your setting name  
   ![image](https://github.com/TwinFaerie/twinfaerie-settingmenu/assets/34561311/8c2c5fbf-6e2c-4732-a491-9e5603c5c91f)
 
 # Notes

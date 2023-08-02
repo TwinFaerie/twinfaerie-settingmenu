@@ -12,7 +12,7 @@ namespace TF.SettingMenu.Editor
 {
     public class SettingMenu : EditorWindow
     {
-        private const string ICON_FILEPATH = "Assets/Setting/Icon/_Setting Icon.png";
+        [SerializeField] private const string ICON_FILEPATH = "Packages/com.twinfaerie.settingmenu/Assets/Icon/Setting Icon.png";
 
         private VisualElement rightPanel;
 

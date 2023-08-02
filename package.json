@@ -1,0 +1,12 @@
+{
+  "name": "com.twinfaerie.settingmenu",
+  "version": "1.0.0",
+  "displayName": "TwinFaerie Setting-Menu",
+  "description": "For centralize game setting and separate game setting from unity setting",
+  "unity": "2020.3",
+  "author": {
+    "name": "CuteRogue",
+    "email": "cuterogue@twinfaerie.my.id",
+    "url": "https://www.twinfaerie.my.id/cuterogue"
+  }
+}

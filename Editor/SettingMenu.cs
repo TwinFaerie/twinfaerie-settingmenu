@@ -58,7 +58,11 @@ namespace TF.SettingMenu.Editor
             leftPanel.bindItem = (item, index) => BindSettingMenuItem(item, allObjects[index].name, AssetDatabase.GUIDToAssetPath(allObjectGuids[index]));
             leftPanel.itemsSource = allObjects;
 
+#if UNITY_2022_2_OR_NEWER
             leftPanel.selectionChanged += OnMenuSelectionChange;
+#else
+            leftPanel.onSelectionChange += OnMenuSelectionChange;
+#endif
         }
 
         private void BindSettingMenuItem(VisualElement item, string name, string path)

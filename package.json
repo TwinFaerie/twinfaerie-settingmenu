@@ -7,6 +7,10 @@
   "documentationUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/",
   "changelogUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/releases",
   "licensesUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/blob/main/LICENSE",
+  "repository" : "https://github.com/TwinFaerie/twinfaerie-settingmenu",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/@twinfaerie" 
+  },
   "author": {
     "name": "CuteRogue",
     "email": "cuterogue@twinfaerie.my.id",

@@ -10,7 +10,6 @@ using UnityEngine;
 
 namespace TF.SettingMenu.Editor
 {
-    [CreateAssetMenu(fileName = "Customize Setting", menuName = "test", order = -500)]
     public class CustomizeSetting : ScriptableObject
     {
         public const string RESOURCES_PATH = "Assets/Resources/";

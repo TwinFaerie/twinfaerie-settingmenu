@@ -1,3 +1,4 @@
+#if !TF_HAS_TFODINEXTENDER
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -193,3 +194,4 @@ namespace TF.SettingMenu.Editor
         }
     }
 }
+#endif

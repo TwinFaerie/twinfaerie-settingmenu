@@ -1,15 +1,15 @@
 {
   "name": "com.twinfaerie.settingmenu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "TwinFaerie Setting-Menu",
   "description": "For centralize game setting and separate game setting from unity setting",
   "unity": "2020.3",
   "documentationUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/",
   "changelogUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/releases",
   "licensesUrl": "https://github.com/TwinFaerie/twinfaerie-settingmenu/blob/main/LICENSE",
-  "repository" : "https://github.com/TwinFaerie/twinfaerie-settingmenu",
-  "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/@twinfaerie" 
+  "repository": "https://github.com/TwinFaerie/twinfaerie-settingmenu",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@twinfaerie"
   },
   "author": {
     "name": "Twin Faerie",
@@ -18,9 +18,9 @@
   },
   "samples": [
     {
-        "displayName": "Example Usage",
-        "description": "Adding Example menu to the module",
-        "path": "Samples~/SettingMenuExample"
+      "displayName": "Example Usage",
+      "description": "Adding Example menu to the module",
+      "path": "Samples~/SettingMenuExample"
     }
   ]
 }

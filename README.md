@@ -1,4 +1,4 @@
-# Overview 
+# Overview
 This module created to centralize scriptable object used for in-game setting
 
 # How To Use

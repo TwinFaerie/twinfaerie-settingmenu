@@ -153,7 +153,7 @@ namespace TF.SettingMenu.Odin.Editor
 
             EditorGUI.BeginChangeCheck();
             {
-                base.OnGUI();
+                base.OnImGUI();
             }
             if (EditorGUI.EndChangeCheck() || Event.current.type == EventType.MouseEnterWindow || Event.current.type == EventType.MouseLeaveWindow)
             {

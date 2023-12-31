@@ -1,6 +1,6 @@
 {
   "name": "com.twinfaerie.settingmenu",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "displayName": "TwinFaerie Setting-Menu",
   "description": "For centralize game setting and separate game setting from unity setting",
   "unity": "2020.3",

@@ -44,9 +44,9 @@ namespace TF.SettingMenu.Odin.Editor
             var allObjectGuids = AssetDatabase.FindAssets("t:SettingComponent");
             foreach (var guid in allObjectGuids)
             {
-                SettingComponent item = AssetDatabase.LoadAssetAtPath<SettingComponent>(AssetDatabase.GUIDToAssetPath(guid));
+                var item = AssetDatabase.LoadAssetAtPath<SettingComponent>(AssetDatabase.GUIDToAssetPath(guid));
 
-                if (item != null)
+                if (item is not null)
                 {
                     settingList.Add(item);
                 }
@@ -145,7 +145,7 @@ namespace TF.SettingMenu.Odin.Editor
             AssetDatabase.Refresh();
         }
 
-        protected override void OnGUI()
+        protected override void OnImGUI()
         {
             wantsMouseEnterLeaveWindow = true;
 

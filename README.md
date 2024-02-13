@@ -1,9 +1,14 @@
 # Overview
-This module created to centralize scriptable object used for in-game setting
+This module created to centralize scriptable object used for in-game setting.
+
+# Installation
+You can just use Unity Package Manager and use either Git URL or OpenUPM URL down below.  
+- Github: TODO
+- OpenUPM: TODO
 
 # How To Use
 ## Create New Setting using SettingComponent
-- Create your own Setting by creating new class that holds your game setting
+- Create your own Setting by creating new class that holds your game setting.  
   ```csharp
   using TF.SettingMenu;
   using UnityEngine;
@@ -20,11 +25,10 @@ This module created to centralize scriptable object used for in-game setting
       }
   }
   ```
-- This setting file needs to be extended from SettingComponent to make it shows on Game Setting Window
+- This setting file needs to be extended from SettingComponent to make it shows on Game Setting Window.  
   
 ## Create Setup Menu using SettingComponentMenu
-
-- Create editor script to create Setting that you just created before by using Setup menu 
+- Create editor script to create Setting that you just created before by using Setup menu.  
   ```csharp
   using TF.SettingMenu.Editor;
   using UnityEditor;
@@ -43,20 +47,20 @@ This module created to centralize scriptable object used for in-game setting
       }
   }
   ```
-- You can create your own setup function without SettingComponentMenu, but it is easier to just use method
+- You can create your own setup function without SettingComponentMenu, but it is easier to just use method.  
 
 ## Setup Your Setting
-- Now you can just use Setup option to automatically create the Setting that you just created on  
+- Now you can just use Setup option to automatically create the Setting that you just created on.  
   ```TwinFaerie -> Setup -> YOUR_SETTING_NAME```  
   ![image](https://github.com/TwinFaerie/twinfaerie-settingmenu/assets/34561311/e2250594-c5e6-488d-8dfc-ef87f14395f4)
 
 ## Open Game Setting Window
-- That's it, now when you open game setting your setting should shows inside  
+- That's it, now when you open game setting your setting should shows inside.  
   ![image](https://github.com/TwinFaerie/twinfaerie-settingmenu/assets/34561311/933bce47-5ccf-4a2e-b348-eba18298438f)
 
 ## (OPTIONAL) Adding Icon to your Setting
-- You can also add icon to your setting by placing .png image inside Setting/Icon folder with same name as your setting name  
+- You can also add icon to your setting by placing .png image inside Setting/Icon folder with same name as your setting name.  
   ![image](https://github.com/TwinFaerie/twinfaerie-settingmenu/assets/34561311/8c2c5fbf-6e2c-4732-a491-9e5603c5c91f)
 
 # Notes
-- This module is free-to-use, however as this module is specific to solve problem in our project, the support for other project is limited. Feel free to fork this if needed
+- This module is free-to-use, however as this module is specific to solve problem in our project, the support for other project is limited. Feel free to fork this if needed.

@@ -6,7 +6,7 @@ namespace TF.SettingMenu.Editor
 {
     public abstract class SettingComponentMenu<T> where T : SettingComponent
     {
-        private const string DEFAULT_PATH = "Assets/Setting/";
+        private const string DEFAULT_PATH = "Assets/Settings/";
         protected const string DEFAULT_CREATE_MENU_PATH = "TwinFaerie/Setting/Setup/Create ";
 
         // use this command on child class
@@ -15,18 +15,18 @@ namespace TF.SettingMenu.Editor
         // call this function and specify the name when using the command above
         protected static void CreateSettingMenu(string name)
         {
-            T asset = ScriptableObject.CreateInstance<T>();
+            var asset = ScriptableObject.CreateInstance<T>();
 
             if (!Directory.Exists(DEFAULT_PATH))
             {
                 Directory.CreateDirectory(DEFAULT_PATH);
             }
 
-            var filePath = string.Format("{0}{1}.asset", DEFAULT_PATH, name);
+            var filePath = $"{DEFAULT_PATH}{name}.asset";
 
             if (!File.Exists(filePath))
             {
-                AssetDatabase.CreateAsset(asset, string.Format("{0}{1}.asset", DEFAULT_PATH, name));
+                AssetDatabase.CreateAsset(asset, $"{DEFAULT_PATH}{name}.asset");
                 AssetDatabase.SaveAssets();
 
                 EditorUtility.DisplayDialog("Setting creation Success", "Setting creation Success, now you can access it in Game Setting Menu", "OK");

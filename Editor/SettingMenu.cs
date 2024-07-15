@@ -96,11 +96,15 @@ namespace TF.SettingMenu.Editor
             container.style.paddingRight = 5;
             container.style.paddingTop = 5;
             container.style.paddingBottom = 5;
-
+            
             var item = selectedItems.First() as SettingComponent;
+            var editor = UnityEditor.Editor.CreateEditor(item);
+            var inspector = editor.CreateInspectorGUI();
+            
+            Debug.Log(inspector == null);
 
             container.Add(CreateSettingTitle(item));
-            container.Add(CreateUIElementInspector(item));
+            container.Add(inspector ?? CreateUIElementInspector(item));
             rightPanel.Add(container);
         }
 

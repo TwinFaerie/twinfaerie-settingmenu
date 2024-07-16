@@ -101,8 +101,6 @@ namespace TF.SettingMenu.Editor
             var editor = UnityEditor.Editor.CreateEditor(item);
             var inspector = editor.CreateInspectorGUI();
             
-            Debug.Log(inspector == null);
-
             container.Add(CreateSettingTitle(item));
             container.Add(inspector ?? CreateUIElementInspector(item));
             rightPanel.Add(container);

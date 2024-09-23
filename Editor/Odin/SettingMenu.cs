@@ -17,6 +17,8 @@ namespace TF.SettingMenu.Odin.Editor
         [MenuItem("TwinFaerie/Setting/Open Game Setting", priority = 1)]
         public static void ShowMenu()
         {
+            SettingComponentValidator.ValidateAllSettingComponents();
+            
             EditorWindow window = GetWindow<SettingMenu>();
 
             window.titleContent = new GUIContent("Game Setting", EditorIcons.SettingsCog.Raw);

@@ -20,6 +20,8 @@ namespace TF.SettingMenu.Editor
         [MenuItem("TwinFaerie/Setting/Open Game Setting", priority = 1)]
         public static void ShowMenu()
         {
+            SettingComponentValidator.ValidateAllSettingComponents();
+
             EditorWindow window = GetWindow<SettingMenu>();
             var icon = AssetDatabase.LoadAssetAtPath<Texture2D>(ICON_FILEPATH);
 

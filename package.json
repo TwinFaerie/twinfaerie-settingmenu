@@ -1,6 +1,6 @@
 {
   "name": "com.twinfaerie.settingmenu",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "displayName": "TwinFaerie Setting-Menu",
   "description": "For centralize game setting and separate game setting from unity setting",
   "unity": "2020.3",
@@ -13,8 +13,8 @@
   },
   "author": {
     "name": "Twin Faerie",
-    "email": "support@twinfaerie.my.id",
-    "url": "https://www.twinfaerie.my.id/"
+    "url": "https://www.twinfaerie.com/",
+    "email": "support@twinfaerie.com"
   },
   "samples": [
     {
